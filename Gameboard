@@ -1,0 +1,33 @@
+import java.awt.*;
+
+public class Gameboard {
+   public static void main(String[]args) {
+      DrawingPanel panel = new DrawingPanel(2500, 1000);
+      Graphics g = panel.getGraphics();
+      panel.setBackground(Color.BLACK);
+      /*int x = (Math.random() *1400 +1001);
+      int y = (Math.random() *900 +101);
+      board(x,y);*/
+      
+   
+   
+   
+   
+   
+   }         
+      public static void board (Graphics G, int x, int y) {
+         Graphics g = panel.getGraphics();
+         panel.setcolor(Color.WHITE);
+         g.fillRect(x, y, 10, 10);
+      
+   
+   
+   
+   
+   
+   }     
+}
+
+
+//separate method with a clear function "panel.clear"
+//math.random() *40 gives you random integers from 1-39.999
